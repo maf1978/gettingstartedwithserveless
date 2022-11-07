@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "getting-started-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1qvcmk5ezf349"
+s3_prefix = "getting-started-app"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "slackUrl=\"https://hooks.slack.com/services/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\""
+image_repositories = []
